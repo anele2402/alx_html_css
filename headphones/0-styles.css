@@ -1,0 +1,422 @@
+@font-face {
+    font-family: 'fonts/SansPro';
+    src: url(fonts/source-sans-pro/SourceSansPro-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'SansPro',sans-serif;
+}
+.headerr{
+    background-image: url('images/headphones_hero_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    padding-top: 1rem;
+   
+    
+}
+#nav-icon{
+    color: #ffffff;
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15%;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+     top: 50%;
+     left: 50%;
+}
+ul li{
+    margin-right: 2rem;
+}
+.nav-div{
+    width: 50%;
+    margin: 0 auto;
+    color:white;
+    font-family: 'SansPro',sans-serif;
+    
+}
+.nav-div p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 5%;
+    padding-bottom: 13%;
+    line-height: 1.7rem;
+}
+.nav-div h1{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding-bottom: 3%;
+    
+}
+.h44 {
+    align-items: center;
+    margin-left: 17%;
+    padding-bottom: 5%;
+}
+.nav-btn{
+    margin-top: 10px;
+    margin-left: 33%;
+    background-color:#FF6565 ;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 999px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5%; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+
+}
+#nav-icon{
+    display: none;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+li:hover{
+    color: #FF6565;
+    cursor: pointer;
+}
+.first-sect h2{
+    font-family: 'SansPro',sans-serif;
+    text-align: center;
+    color: #071629;
+    font-weight: 800;
+    margin-bottom: 3%;
+}
+
+.percent-sect{
+    background-image: url('images/headphones_hero_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+   
+}
+.percent-info{
+    width: 50%;
+    margin: 0 auto;
+}
+#percent-p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 5%;
+    line-height: 1.5rem;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+}
+
+
+.percent-div div{
+    background-image: url('images/pentagone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    align-items: center;
+    height:226px;
+    width: 301px;
+    opacity: 1.4;
+    margin-right: 2%;
+
+  
+}
+.percent-div{
+   display: flex;
+   justify-content: space-around;
+   width: 80%;
+   align-items: center;
+   padding-top: 5%;
+   padding-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+ 
+}
+
+.div-1 h5  {
+    text-align: center;
+    font-size:1.6rem;
+    padding-top: 30%;
+    font-weight: 900;
+
+}
+.div-1 p{
+    text-align: center;
+    padding-top: 3%;
+    
+}
+.percent-div p{
+    flex-wrap: nowrap;
+    font-size: 0.61rem;
+    
+      
+}
+.percent-sect h1{
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 3%;  
+    color: #FFFFFF;
+
+}
+.form-sect{
+    
+    
+}
+
+.first-sect{
+    
+    padding-top: 3%;
+}
+.first-sect p{
+     font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 5%;
+    line-height: 1.5rem;
+    margin: 0 auto;
+    width: 50%;
+
+}
+.first-sect h3{
+    color: #071629;
+    font-weight: 700;
+    padding-bottom: 9%;
+}
+.first-sect h6{
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: "SansPro",sans-serif;
+    
+}
+.first-main-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    ;
+}
+.form-sect h2{
+    color: #071629;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5%;
+}
+.third-div{
+    width: 20%;
+    color:#071629;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.form-sect label{
+    color: #071629;
+    font-weight: 700;
+    font-size: 1.1rem;
+    
+}
+.third-div input{
+    border: none;
+    border-top: 2px solid rgb(221, 221, 221);
+    width: 20rem;
+    margin-top: 5%;
+    opacity:0.6 ;
+}
+
+.third-btn{
+      margin-top: 2.4%;
+    margin-left: 43%;
+    background-color:#FF6565 ;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 999px;
+    color: white;
+    margin-bottom: 6%;
+    
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4%;
+}
+.iconss i{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%; 
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 1rem;
+
+}
+
+footer{
+    background-color: #071629;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+footer p{
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 2%;
+    opacity: 0.3;
+}
+
+@media (max-width:480px) {
+    .navbar ul{
+        display: none;
+       
+      
+      
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        
+    }
+    .logo{
+        width: 50%;
+        padding-right: 50%;
+        padding-left: 5%;
+        
+    }
+    .headerr{
+        height: 100%;
+        width: 100%;
+    }
+        
+
+    .nav-div{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 55%;
+
+    }
+    .nav-div h1{
+        font-size: 1.5rem;
+        
+    }
+    .h44{
+        font-size: 0.9rem;
+    }
+    .nav-btn{
+        margin-left: 5%;
+        margin-bottom: 6%;
+
+    }
+    .first-sect p{
+        width: 60%;
+       
+    }
+    .first-main-div{
+        display: block;
+        margin-bottom: 6%;
+        align-items: center;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .first-main-div h3{
+        font-size: 16px;
+        text-align: center;
+        padding-top: 4%;
+    }
+    .first-main-div h6{
+        font-size: 13px;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    .percent-info h1{
+        font-size: 21px;
+        font-weight: 900;
+        padding-bottom: 5%;
+    }
+    .percent-div{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 6%;
+    }
+    .percent-div div{
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 7%;
+       width: 55%;
+       
+        
+    }
+
+    
+    
+    .footer-img{
+        margin: 0 auto;
+        width: 60%;
+        display: block;
+        margin-bottom: 6%;
+
+    }
+    footer p{
+        font-size: 12px;
+    }
+    .third-btn{
+        margin-left: 36%;
+        
+    }
+    .form-sect {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .third-div input{
+        width:12rem;
+    }
+    .form-sect{
+        display: block;
+        width: 100%;
+    }
+    
+    
+    .footer-div{
+        display: block;
+    }
+    .iconss{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        margin-left: 28%;
+       
+       
+    }
+ 
+    
+    
+    #nav-icon{
+        display:block;
+        float: right;
+        margin-right: 5%;
+    }
+}
